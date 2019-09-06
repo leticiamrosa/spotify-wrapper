@@ -10,7 +10,6 @@ import {
   searchTracks,
   searchArtists
 } from "../src/search.spec";
-import { promises } from "dns";
 
 describe("Search", () => {
   let spotify;
