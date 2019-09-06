@@ -4,6 +4,9 @@ export const search = (query, type) => {
   );
 };
 export const searchAlbums = () => {};
-export const searchArtists = () => {};
+
+export const searchArtists = query => {
+  search(query, "artist");
+};
 export const searchTracks = () => {};
 export const searchPlaylists = () => {};
